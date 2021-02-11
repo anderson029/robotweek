@@ -3,12 +3,36 @@ Documentation   Teste da página Login
 
 Library   Browser
 
+Resource     resources/login_actions.robot
+
+#gancho para tirar screenshot após cada cenário
+Test Teardown   Take Screenshot
+
 ***Test Cases***
 Login com sucesso
     #New Page    http://parodify.qaninja.com.br/users/sign_in     
-    Open Browser    http://parodify.qaninja.com.br/users/sign_in    chromium
+    Open Login Page 
     #Get Text    [for="user_email"]    contains    Email
-    Fill Text   [id="user_email"]   papito@parodify.com
-    Fill Text   [id="user_password"]  pwd123
-    click       input[value="Log in"]
+    Login With      papito@parodify.com     pwd123
     Wait For Elements State     a[href$="/sign_out"]    visible     10
+    
+Senha incorreta
+   Open Login Page 
+    Login With      papito@parodify.com     xpto123
+    Alert Should Be      Opps! Dados de acesso incorretos!
+    
+E-mail inválido
+    Open Login Page
+    Login With      123@teste.com   abc123
+    Alert Should Be      Opps! Dados de acesso incorretos!
+   
+    
+E-mail não informado
+    Open Login Page
+    Login With      ${EMPTY}    pwd123
+    Alert Should Be      Opps! Dados de acesso incorretos!
+    
+Senha não informada
+    Open Login Page
+    Login With      papito@parodify.com     ${EMPTY}
+    Alert Should Be      Opps! Dados de acesso incorretos!
