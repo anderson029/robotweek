@@ -9,7 +9,7 @@ Test Teardown   Take Screenshot
 ***Test Cases***
 Login com sucesso
     [tags]  smoke
-    #New Page    http://parodify.qaninja.com.br/users/sign_in     
+     
     Open Login Page 
     #Get Text    [for="user_email"]    contains    Email
     Login With      papito@parodify.com     pwd123

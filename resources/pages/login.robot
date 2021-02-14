@@ -3,7 +3,9 @@ Documentation   Ações da página de login
 
 ***Keywords***
 Open Login Page
-    Open Browser    http://parodify.qaninja.com.br/users/sign_in    chromium
+    New Browser     ${browser}  ${headless}
+    New Page    http://parodify.qaninja.com.br/users/sign_in  
+    #Open Browser    http://parodify.qaninja.com.br/users/sign_in    chromium
 
 Login With
     [Arguments]     ${email_arg}    ${pass_arg}
