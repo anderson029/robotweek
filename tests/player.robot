@@ -3,6 +3,9 @@ Documentation   Testando o player de paródias
 
 Resource    ../resources/base.robot
 
+#gancho para tirar screenshot após cada cenário
+Test Teardown   Take Screenshot
+
 ***Test Cases***
 Reproduzir paródia Bug de manhã
     Open Login Page

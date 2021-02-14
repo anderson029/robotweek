@@ -1,11 +1,11 @@
-{"level":30,"time":"2021-02-14T16:52:39.664Z","pid":12660,"hostname":"LAPTOP-IPE08FQ9","msg":"Listening on 56281"}
-{"level":30,"time":"2021-02-14T16:52:40.887Z","pid":12660,"hostname":"LAPTOP-IPE08FQ9","msg":"Changed active context"}
-{"level":30,"time":"2021-02-14T16:52:41.120Z","pid":12660,"hostname":"LAPTOP-IPE08FQ9","msg":"Video path: undefined"}
-{"level":30,"time":"2021-02-14T16:52:41.120Z","pid":12660,"hostname":"LAPTOP-IPE08FQ9","msg":"Changed active page"}
-{"level":30,"time":"2021-02-14T16:52:47.933Z","pid":12660,"hostname":"LAPTOP-IPE08FQ9","msg":"Getting css of element on page"}
-{"level":30,"time":"2021-02-14T16:52:57.982Z","pid":12660,"hostname":"LAPTOP-IPE08FQ9","msg":"Changed active context"}
-{"level":30,"time":"2021-02-14T16:52:57.982Z","pid":12660,"hostname":"LAPTOP-IPE08FQ9","msg":"Changing current active page"}
-{"level":30,"time":"2021-02-14T16:52:57.983Z","pid":12660,"hostname":"LAPTOP-IPE08FQ9","msg":"Changed active page"}
-{"level":30,"time":"2021-02-14T16:52:58.052Z","pid":12660,"hostname":"LAPTOP-IPE08FQ9","msg":"Changed active context"}
-{"level":30,"time":"2021-02-14T16:52:58.053Z","pid":12660,"hostname":"LAPTOP-IPE08FQ9","msg":"Changing current active page"}
-{"level":30,"time":"2021-02-14T16:52:58.053Z","pid":12660,"hostname":"LAPTOP-IPE08FQ9","msg":"Changed active page"}
+{"level":30,"time":"2021-02-14T17:06:32.103Z","pid":14316,"hostname":"LAPTOP-IPE08FQ9","msg":"Listening on 56810"}
+{"level":30,"time":"2021-02-14T17:06:33.396Z","pid":14316,"hostname":"LAPTOP-IPE08FQ9","msg":"Changed active context"}
+{"level":30,"time":"2021-02-14T17:06:33.657Z","pid":14316,"hostname":"LAPTOP-IPE08FQ9","msg":"Video path: undefined"}
+{"level":30,"time":"2021-02-14T17:06:33.658Z","pid":14316,"hostname":"LAPTOP-IPE08FQ9","msg":"Changed active page"}
+{"level":30,"time":"2021-02-14T17:06:40.894Z","pid":14316,"hostname":"LAPTOP-IPE08FQ9","msg":"Getting css of element on page"}
+{"level":30,"time":"2021-02-14T17:06:41.512Z","pid":14316,"hostname":"LAPTOP-IPE08FQ9","msg":"Changed active context"}
+{"level":30,"time":"2021-02-14T17:06:41.513Z","pid":14316,"hostname":"LAPTOP-IPE08FQ9","msg":"Changing current active page"}
+{"level":30,"time":"2021-02-14T17:06:41.513Z","pid":14316,"hostname":"LAPTOP-IPE08FQ9","msg":"Changed active page"}
+{"level":30,"time":"2021-02-14T17:06:41.558Z","pid":14316,"hostname":"LAPTOP-IPE08FQ9","msg":"Changed active context"}
+{"level":30,"time":"2021-02-14T17:06:41.558Z","pid":14316,"hostname":"LAPTOP-IPE08FQ9","msg":"Changing current active page"}
+{"level":30,"time":"2021-02-14T17:06:41.558Z","pid":14316,"hostname":"LAPTOP-IPE08FQ9","msg":"Changed active page"}
