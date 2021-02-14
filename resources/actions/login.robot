@@ -1,8 +1,6 @@
 ***Settings***
 Documentation   Ações da página de login
 
-
-
 ***Keywords***
 Open Login Page
     Open Browser    http://parodify.qaninja.com.br/users/sign_in    chromium
@@ -16,5 +14,5 @@ Login With
 
 Alert Should Be 
     [Arguments]    ${expect_arg}
-
+    
     Get Text        css=.is-danger .message-body    ==      ${expect_arg}

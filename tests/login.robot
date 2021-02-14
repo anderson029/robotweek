@@ -1,21 +1,20 @@
 ***Settings***
 Documentation   Teste da página Login
 
-Library   Browser
-
-Resource     resources/login_actions.robot
+Resource        ../resources/base.robot 
 
 #gancho para tirar screenshot após cada cenário
 Test Teardown   Take Screenshot
 
 ***Test Cases***
 Login com sucesso
+    [tags]  smoke
     #New Page    http://parodify.qaninja.com.br/users/sign_in     
     Open Login Page 
     #Get Text    [for="user_email"]    contains    Email
     Login With      papito@parodify.com     pwd123
-    Wait For Elements State     a[href$="/sign_out"]    visible     10
-    
+    Logout Link Should Be visible
+       
 Senha incorreta
    Open Login Page 
     Login With      papito@parodify.com     xpto123
